@@ -16,6 +16,7 @@ img {
     width: 100%;
 }
 
+
 body {
     background-color: #540B51;
     font-family: sans-serif;
@@ -32,9 +33,6 @@ nav img {
     align-items: center;
 }
 
-nav ul {
-    display: none;
-}
 
 nav button {
     background-color: #540B51;
@@ -99,7 +97,7 @@ h1 {
     display: flex;
     padding: 10px 0px;
     justify-content: space-between;
-    padding-right: 170px;
+    padding-right: 180px;
     align-items: center;
     letter-spacing: 1px;
     margin-bottom: 60px;
@@ -184,7 +182,7 @@ h1 {
     text-align: center;
     font-weight: 800;
     width: 190px;
-    margin-left: 170px;
+    margin-left: 150px;
 }
 
 .buttons-welcome {
@@ -241,7 +239,7 @@ hr {
     width: 550px;
 }
 
-footer ul li {
+.contact {
     list-style: none;
     padding: 15px;
     font-size: 1em;
@@ -255,7 +253,9 @@ footer ul li {
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+
 }
 
 footer div {
